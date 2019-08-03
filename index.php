@@ -10,6 +10,10 @@
     $a=3;
     $b=4;
     // $c=$a+$b;
+    for ($i=1; $i <=11 ; $i++) { 
+        $j=$i*$i;
+        echo "$i X $i=$j<br>";
+    }
     for ($c=0; $c < 11; $c++) { 
         if ($c==1) {
             echo '<h1 style="color : red;">'.$c.'</h1>';
